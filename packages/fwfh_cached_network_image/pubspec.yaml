@@ -1,5 +1,6 @@
 name: fwfh_cached_network_image
 version: 0.14.2
+publish_to: "none"
 description: WidgetFactory extension to render IMG with cached_network_image plugin.
 homepage: https://github.com/Fares-ayman-farouk/flutter_widget_from_html
 
@@ -8,7 +9,10 @@ environment:
   sdk: ">=2.19.0 <4.0.0"
 
 dependencies:
-  cached_network_image: ^3.3.1
+  cached_network_image:
+    git:
+      url: https://github.com/SaadSabry/flutter_cached_network_image.git
+      path: cached_network_image
   flutter:
     sdk: flutter
   flutter_cache_manager: ^3.3.1

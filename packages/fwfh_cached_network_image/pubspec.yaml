@@ -15,7 +15,10 @@ dependencies:
       path: cached_network_image
   flutter:
     sdk: flutter
-  flutter_cache_manager: ^3.3.1
+  flutter_cache_manager:
+    git:
+      url: https://github.com/SaadSabry/flutter_cache_manager.git
+      path: flutter_cache_manager
   flutter_widget_from_html_core: ">0.8.0 <0.15.0"
 
 dependency_overrides:

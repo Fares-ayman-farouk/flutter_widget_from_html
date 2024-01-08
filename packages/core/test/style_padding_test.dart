@@ -253,7 +253,7 @@ void main() {
   });
 
   testWidgets('renders padding around empty string', (tester) async {
-    // https://github.com/daohoangson/flutter_widget_from_html/issues/812
+    // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/812
     const html = '<p style="padding: 260px 0px 260px 0px;"></p>';
     final explained = await explain(tester, html);
     expect(

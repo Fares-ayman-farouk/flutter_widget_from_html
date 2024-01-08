@@ -214,7 +214,7 @@ Future<void> main() async {
 
           const svg = 'Foo.\n$redTriangle\nBar.';
 
-          // https://github.com/daohoangson/flutter_widget_from_html/issues/1142
+          // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1142
           const svg1142 = '''
 <svg xmlns="http://www.w3.org/2000/svg" width="153px" height="48px" viewbox="0 -1971.3 8504.1 2679.3" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="">
   <defs>

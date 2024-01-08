@@ -465,7 +465,7 @@ void main() {
 
 class _BuildMetadataSmilies extends WidgetFactory {
   /// Exact code from the demo app for v0.10
-  /// https://github.com/daohoangson/flutter_widget_from_html/blob/v0.10.0/demo_app/lib/screens/smilie.dart
+  /// https://github.com/Fares-ayman-farouk/flutter_widget_from_html/blob/v0.10.0/demo_app/lib/screens/smilie.dart
   static const kSmilies = {':)': '🙂'};
 
   final smilieOp = BuildOp(
@@ -526,7 +526,7 @@ class _BuildMetadataTsbEnqueue extends WidgetFactory {
         BuildOp(
           onTreeFlattening: (meta, tree) {
             /// Similar code in background color styling for v0.10
-            /// https://github.com/daohoangson/flutter_widget_from_html/blob/v0.10.0/packages/core/lib/src/internal/ops/style_bg_color.dart
+            /// https://github.com/Fares-ayman-farouk/flutter_widget_from_html/blob/v0.10.0/packages/core/lib/src/internal/ops/style_bg_color.dart
             meta.tsb.enqueue(_backgroundColor, const Color(0x12345678));
           },
         ),

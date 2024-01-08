@@ -56,9 +56,9 @@ Future<void> main() async {
     </span>
   </span>
 </div>
-<!-- https://github.com/daohoangson/flutter_widget_from_html/issues/119 -->
+<!-- https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/119 -->
 <div>I​Like​Playing​football​​game</div>
-<!-- https://github.com/daohoangson/flutter_widget_from_html/issues/185 -->
+<!-- https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/185 -->
 <div> &nbsp; </div>
 ''';
     final str = await explain(tester, html);
@@ -599,7 +599,7 @@ Future<void> main() async {
     });
 
     testWidgets('renders custom color', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1070
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1070
       const html = '<hr style="border:none;border-bottom:1px solid #e34a3a">';
       final explained = await explainMargin(tester, html);
       expect(
@@ -901,7 +901,7 @@ Future<void> main() async {
     });
 
     testWidgets('renders onRenderBlock inline', (tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/646
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/646
       const html = '<span style="display:inline-block;">Foo</span>';
       final explained = await explain(
         tester,
@@ -917,7 +917,7 @@ Future<void> main() async {
     });
 
     testWidgets('inline block with bg, v-align', (tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/799
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/799
       const html = '<span style="background-color: #FF6600; '
           'display: inline-block; vertical-align: middle">Foo</span>';
       final e = await explain(tester, html);

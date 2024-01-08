@@ -1,6 +1,6 @@
 # Migration from v0.10 to v0.14
 
-[PR #897](https://github.com/daohoangson/flutter_widget_from_html/pull/897) is a big change that might break things in existing app. We made it easier to understand how the package parses HTML into a Flutter widget tree. The main goals were:
+[PR #897](https://github.com/Fares-ayman-farouk/flutter_widget_from_html/pull/897) is a big change that might break things in existing app. We made it easier to understand how the package parses HTML into a Flutter widget tree. The main goals were:
 
 1. Merge `BuildMetadata` and `BuildTree`.
 2. Simplify `BuildOp` callbacks

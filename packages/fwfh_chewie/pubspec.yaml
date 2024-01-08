@@ -1,7 +1,7 @@
 name: fwfh_chewie
 version: 0.14.7
 description: WidgetFactory extension to render VIDEO with the chewie plugin.
-homepage: https://github.com/daohoangson/flutter_widget_from_html
+homepage: https://github.com/Fares-ayman-farouk/flutter_widget_from_html
 
 environment:
   flutter: ">=3.7.0"

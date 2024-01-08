@@ -1,6 +1,6 @@
 # HtmlWidget monorepo
 
-[![Flutter](https://github.com/daohoangson/flutter_widget_from_html/actions/workflows/flutter.yml/badge.svg)](https://github.com/daohoangson/flutter_widget_from_html/actions/workflows/flutter.yml)
+[![Flutter](https://github.com/Fares-ayman-farouk/flutter_widget_from_html/actions/workflows/flutter.yml/badge.svg)](https://github.com/Fares-ayman-farouk/flutter_widget_from_html/actions/workflows/flutter.yml)
 [![codecov](https://codecov.io/gh/daohoangson/flutter_widget_from_html/branch/master/graph/badge.svg)](https://codecov.io/gh/daohoangson/flutter_widget_from_html)
 
 This repo contains the source code for everything `HtmlWidget`-related.

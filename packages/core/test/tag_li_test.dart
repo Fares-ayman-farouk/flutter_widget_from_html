@@ -692,7 +692,7 @@ Future<void> main() async {
     });
 
     testWidgets('LI has empty A', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/112
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/112
       const html = '''
 <ol>
   <li>One</li>

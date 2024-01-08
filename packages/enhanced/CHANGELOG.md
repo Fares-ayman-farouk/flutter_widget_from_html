@@ -75,7 +75,7 @@
 - BREAKING: Append `defaultStyles` instead of prepend (#1055)
 - BREAKING: Change default alignment of inline widget from `bottom` to `baseline` (#1056)
 
-See migration document: https://github.com/daohoangson/flutter_widget_from_html/blob/master/docs/migration.md
+See migration document: https://github.com/Fares-ayman-farouk/flutter_widget_from_html/blob/master/docs/migration.md
 
 # 0.10.6
 

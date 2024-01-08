@@ -42,7 +42,7 @@ void main() {
     });
 
     testWidgets('renders in AlertDialog', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1082
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1082
       await explain(
         tester,
         null,

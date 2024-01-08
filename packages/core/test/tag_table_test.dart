@@ -471,7 +471,7 @@ Future<void> main() async {
 
   group('combos', () {
     testWidgets('renders nested table', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1070
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1070
       const html = '<p>Foo bar bar</p>'
           '<table cellpadding="0"><tr><td>'
           '<table cellpadding="0"><tr>'
@@ -490,7 +490,7 @@ Future<void> main() async {
     });
 
     testWidgets('renders align=center', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1070
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1070
       const windowSize = 100.0;
       tester.setWindowSize(const Size(windowSize, windowSize));
 
@@ -507,7 +507,7 @@ Future<void> main() async {
     });
 
     testWidgets('renders HR tag', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1070
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1070
       const html = '<table><tr><td>Foo<hr /></td></tr></table>';
       await explain(tester, html);
       final foo = tester.getSize(find.byType(RichText));
@@ -525,7 +525,7 @@ Future<void> main() async {
     });
 
     testWidgets('renders P tag inside justify', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1118
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1118
       const html =
           '<table style="text-align: justify;"><tr><td><p>Foo</p></td></tr></table>';
       final explained = await explain(tester, html);
@@ -655,7 +655,7 @@ Future<void> main() async {
 
   group('background', () {
     testWidgets('cell color', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/171
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/171
       const html = '<table><tr>'
           '<td style="background-color: #f00">Foo</td>'
           '</tr></table>';
@@ -675,7 +675,7 @@ Future<void> main() async {
     });
 
     testWidgets('row color', (WidgetTester tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/1028
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1028
       const html = '<table><tr style="background-color: #f00">'
           '<td>Foo</td><td>Bar</td>'
           '</tr></table>';
@@ -1223,7 +1223,7 @@ Future<void> main() async {
   </tr>
 </table>''',
               'row_color': '''
-<!-- https://github.com/daohoangson/flutter_widget_from_html/issues/1028 -->
+<!-- https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/1028 -->
 <table style="border-collapse: collapse;">
   <tr>
     <th>First Name</th>

@@ -88,7 +88,7 @@ Future<void> main() async {
     });
 
     testWidgets('resets in continuous SPANs', (tester) async {
-      // https://github.com/daohoangson/flutter_widget_from_html/issues/155
+      // https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/155
       const html =
           '<span style="color: #ff0; background-color:#00f;">Foo</span>'
           '<span style="color: #f00;">bar</span>';

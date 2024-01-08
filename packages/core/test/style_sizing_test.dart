@@ -719,7 +719,7 @@ Future<void> main() async {
               childHeightGtMaxHeight:
                   '<img src="asset:$assetName" width="192" height="192" style="height: 96px; width: 250px;" />',
               'sized_inline_block': '''
-<!-- https://github.com/daohoangson/flutter_widget_from_html/issues/799 -->
+<!-- https://github.com/Fares-ayman-farouk/flutter_widget_from_html/issues/799 -->
 <p>
   <span style="display: inline-block; width: 18px; height: 22px; line-height: 22px; float: left; font-size: 15px; background: 0px 0px; margin-right: 4px; color: #FF6600; letter-spacing: -1px; opacity: 1;">1</span>
   <a target="_blank" href="http://domain.com" style="color: rgb(36, 64, 179); text-decoration-line: none; max-width: 260px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; vertical-align: middle; display: inline-block; -webkit-line-clamp: 1; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: 22px;">Foo</a>

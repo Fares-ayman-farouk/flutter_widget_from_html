@@ -84,11 +84,11 @@ class _Panel extends StatelessWidget {
 class _Values extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final ts = MediaQuery.of(context).textScaler.scale(1);
+    final ts = MediaQuery.of(context).textScaleFactor;
     final fontSize = DefaultTextStyle.of(context).style.fontSize;
     return ListTile(
-      title: Text('fontSize=$fontSize', textScaler: TextScaler.noScaling),
-      subtitle: Text('textScaler=$ts', textScaler: TextScaler.noScaling),
+      title: Text('fontSize=$fontSize', textScaleFactor: 1),
+      subtitle: Text('textScaler=$ts', textScaleFactor: 1),
     );
   }
 }
@@ -113,7 +113,7 @@ class _SliderState extends State<_Slider> {
           ),
           MediaQuery(
             data: MediaQuery.of(context)
-                .copyWith(textScaler: TextScaler.linear(_textScaleFactor)),
+                .copyWith(textScaleFactor: 1),
             child: _Panel(),
           ),
         ],
